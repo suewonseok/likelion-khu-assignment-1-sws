@@ -1,0 +1,371 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin: auto;
+    width:1366px;
+    height:3000px;
+}
+
+.첫번째레이아웃 {
+    background-attachment: fixed;
+    position: relative;
+    background-image: url("http://bennettfeely.com/gradients/img/gradient.jpg");
+    background-size: cover;
+    width:100%;
+    height:50%;
+    bottom: 10%;
+}
+
+.첫번째빈창 {
+    float:left;
+    width:15%;
+    height:40%;
+    
+}
+
+.인사창{
+    float: left;
+    font-size:3rem;
+    font-family: nanumgothic;
+    width:55%;
+    height: 80%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    
+
+}
+
+.문구1 {
+     
+    padding-bottom : 10px;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+
+.문구2 {
+    font-size: 0.9em;
+    padding-bottom : 5px;
+}
+
+.문구3 {
+    font-size: 0.7em;
+}
+
+    
+.두번째빈창{
+    float: left;
+    width:30%;
+    height:80%;
+}
+
+.프로필창 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    width:50%;
+    height:100%;
+    color: white;
+    text-align: right;
+}
+
+.사진창 {
+    margin-top: 20%;
+    float: left;
+    width:50%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.문구5 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    
+}
+
+.문구4 {
+    font-size: 0.9rem;
+}
+
+.내사진 {
+    width:100%;
+    height:45%;
+    border-radius: 30%;
+}
+
+.세번째빈창, .세번째빈창ㅂ {
+    position: relative;
+    width:100%;
+    height:30%;
+}
+
+.세번째빈창떨거지{
+    position: relative;
+    width:33.33%;
+    height: 100%;
+    float: left;
+    font-size: 4rem;
+    font-family: nanumgothic;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+} 
+    
+
+
+.끊는창{
+    width:100%;
+    height:10%;
+}
+
+.깨달음의시작{
+    width:100%;
+    height:20%;
+}
+
+.두번째레이아웃{
+    z-index: 1;
+    width:100%;
+    height:60%;
+    position: relative;
+    bottom: 10%;
+}
+
+.둘페첫번째빈방 {
+    width: 20%;
+    height:100%;
+    float: left;
+}
+
+.둘페두번째빈방 {
+    width: 25%;
+    height:100%;
+    float: left;
+}
+
+.둘페내용창 {
+    width: 55%;
+    height:100%;
+    float: left;
+}
+
+.둘페내용창_1 {
+    width:100%;
+    height:25%;
+    padding: 5% auto;
+    
+}
+
+.둘페내용창_2 {
+    width:100%;
+    height:25%;
+    padding: 5% auto;
+}
+
+.둘페내용창_3 {
+    width:100%;
+    height:25%;
+    padding: 5% auto;
+}
+
+.둘페내용창_4 {
+    width:100%;
+    height:25%;
+    padding: 5% auto;
+}
+
+.메가박스{
+    display:block;
+    width:40%;
+    height:60%;
+    float:left;
+    
+}
+
+.경희대학교{
+    display:block;
+    width:40%;
+    height:60%;
+    float:left;
+}
+
+.삼군단{
+    display:block;
+    width:40%;
+    height:60%;
+    float:left;
+}
+
+.멋사{
+    display:block;
+    width:40%;
+    height:60%;
+    float:left;
+}
+
+.메가박스글{
+    
+    font-weight: bold;
+    color: black;
+    font-size:2rem;
+    font-family: nanumgothic;
+    float:left;
+    width:60%;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.경희대학교글{
+    font-weight: bold;
+    color: black;
+    font-size:2rem;
+    font-family: nanumgothic;
+    float:left;
+    width:60%;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.삼군단글{
+    font-weight: bold;
+    color: black;
+    font-size:2rem;
+    font-family: nanumgothic;
+    float:left;
+    width:60%;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.멋사글{
+    font-weight: bold;
+    color: black;
+    font-size:2rem;
+    font-family: nanumgothic;
+    float:left;
+    width:60%;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.세번째레이아웃{
+    position: relative;
+    bottom: 10%;
+    width: 100%;
+    height: 100%;
+    background-image: url("http://hdimages.org/wp-content/uploads/2016/10/css-background-image-HD1-1.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+.세페사진{
+    
+    width:30%;
+    height: 7%;
+}
+
+.세번째레이아웃의하수인왼{
+    color:rgb(93, 93, 93);
+    width:50%;
+    height: 50%;
+    float: left;
+    text-align:center;
+}
+
+.세번째레이아웃의하수인투{
+    width:120%;
+    height:25%;
+    color:white;
+    font-family:nanumgohtic;
+    font-size:4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    position: relative;
+    left:30%;
+}
+    
+
+.세번째레이아웃의하수인오른{
+    color:white;
+    position: relative;
+    right: 10%;
+    width:50%;
+    height: 50%;
+    float: right;
+    text-align:center;
+}
+
+.세번째레이아웃의하수인쓰리{
+    width:150%;
+    height:25%;
+    color:white;
+    font-family:nanumgohtic;
+    font-size:4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    position: relative;
+    right:50%;
+}
+
+.네번째레이아웃{
+    position: relative;
+    bottom: 10%;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0,255,255,0.1);
+    background-attachment: scroll;
+}
+
+.마지막박스 {
+    float:left;
+    width : 33.3%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+}
+
+.마지막박스사진{
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    display:flex;
+    width: 100%;
+    height: 100%;
+}
+
+.마지막박스사진투{
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    display:flex;
+    width:20%;
+    height:20%;
+    
+}
